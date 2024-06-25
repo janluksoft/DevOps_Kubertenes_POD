@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: express03
+spec:
+  containers:
+  - name: express03
+    image: express03:a01
+    ports:
+    - containerPort: 1111
